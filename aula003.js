@@ -4,9 +4,8 @@
 
 "use strict"
 
-function separador() {
-    console.log("-------------------------------------------------------");    
-}
+const FUNCAO = require('./separador.js');
+FUNCAO.separador();
 
 /**Quando uma variável é declarada, há uma política no javascript de fazer a
  * elevação dessa variável até o topo, onde essa variável foi implementada.
@@ -29,7 +28,7 @@ if (true) {
 }
 console.log(nome);
 
-separador(); // ----------------------------------------------
+FUNCAO.separador(); // ----------------------------------------------
 
 /** Apesar da variável 'a' ser declarada como 'var' e é permitido acessa-la
  * fora do bloco, nesse caso isso NÃO vai ser possível pois nesse código está
@@ -45,7 +44,7 @@ function testeVar() {
 testeVar();
 //console.log("Fora da função 'testeVar()' " + a);
 
-separador(); // ----------------------------------------------
+FUNCAO.separador(); // ----------------------------------------------
 
 /** No código abaixo a variável 'let texto', que foi declarada com a palavra
  * reservada 'let', não é permitido acessa-la fora do escopo. Nesse caso haverá
@@ -78,7 +77,7 @@ function teste() {
 teste();
 // console.log("Fora da função teste() : "+texto2);
 
-separador(); // ----------------------------------------------
+FUNCAO.separador(); // ----------------------------------------------
 
 /**Ao declarar uma variável como 'var' ou 'let' com ou sem valor inicial,
  * é possível atualizar os valores, inclusive com TIPOS diferêntes. No
@@ -94,7 +93,7 @@ console.log("info = " + info + "   Tipo|" + typeof(info) + "|");
 info = 15;
 console.log("info = " + info + "   Tipo|" + typeof(info) + "|");
 
-separador(); // ----------------------------------------------
+FUNCAO.separador(); // ----------------------------------------------
 
 /**Ao declarar uma variável com valor inicial como constante, esse valor não
  * poderá mais ser alterado ao longo do código. Assim é possível garantir que
