@@ -5,6 +5,11 @@
 // OPERADORES: + - * / % ++ -- += -=
 
 "use strict"
+
+/** Para IMPORTAR a função 'separador()' do arquivo separador.js, através do Node Js
+ * OBSERVAÇÃO: Esse método é exclusivo no Node Js. Pode ocorrer erro ao usar
+ * o código no navegador ou typescript.
+*/
 const FUNCAO = require('./separador.js');
 
 
