@@ -29,7 +29,7 @@ num3 = num4 = num5 = 33;
 
 console.log(num1+"\n"+num2+"\n"+num3);
 
-funcao_separador.separador();
+FUNCAO.separador();
 // ----------------------------------------------------
 
 var res = num1 + num2;
@@ -38,7 +38,7 @@ console.log("res = "+res);
 console.log(" (num1 + num3) * 2 = "+(num1 + num3)*2);
 console.log(" (num1 + num3 * 2) = "+(num1 + num3*2) );
 
-funcao_separador.separador();
+FUNCAO.separador();
 // ----------------------------------------------------
 
 res = num1 / num2;
@@ -47,7 +47,7 @@ console.log(" num1 / num2 = "+res);
 res = num1 % num2;
 console.log(" num1 % num2 = "+res);
 
-funcao_separador.separador();
+FUNCAO.separador();
 // ----------------------------------------------------
 
 console.log("num1 = "+num1);
