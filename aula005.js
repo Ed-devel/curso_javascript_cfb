@@ -4,7 +4,6 @@
  * Eles vão realizar uma operação e vão retornar um valor VERDADEITO OU FALSO
  * diante da operação relacional, que nada mais é do que uma comparação. Ou seja,
  * nós vamos utilizar operadores de comparação que são > , >= , < , <= , == e !=.
- * 
  */
 
 "use strict"
