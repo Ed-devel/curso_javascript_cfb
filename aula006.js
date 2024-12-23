@@ -1,7 +1,6 @@
 /** Vídeo 7 - Respondendo Perguntas dos Inscritos Parte 1 (aulas de 1 a 5) 
  *  Aula 06.(aula006.js) */
 
-
 // const = require('./separador.js');
 
 
@@ -92,4 +91,25 @@ separador();
  
 // NOMENCLATURA DE VARIÁVEIS, ESCOPO E BLOCOS DE CÓGIGO
 
-// 19:35
+// Variável global - Vai ocupar espaço de memória até o fim
+// da execução do código.
+let sobrenome = "Altemir";
+
+{
+    // Variável local - Vai ocupar espaço de memória só  até o fim
+    // da execução do BLOCO. Após o término o espaço de meméria é
+    // liberado.
+    let siglaCurso = "JS";
+    console.log(siglaCurso);
+}
+
+// Na função abaixo há uma variável. Nesse casoa  função estará
+// disponível para ser executada quando ela for chamada. Quando
+// ela for chamada a variável ocupará espaço na memória até o fim
+// da execução da função. 
+const curso =()=> {
+    let curso = "Javascript";
+    console.log(curso);
+}
+
+curso();
