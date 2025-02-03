@@ -80,7 +80,7 @@ teste();
 FUNCAO.separador(); // ----------------------------------------------
 
 /**Ao declarar uma variável como 'var' ou 'let' com ou sem valor inicial,
- * é possível atualizar os valores, inclusive com TIPOS diferêntes. No
+ * é possível atualizar os valores, inclusive com TIPOS diferentes. No
  * código abaixo apesar da variável 'info' ser inicializada com uma string,
  * na sua útima atualização essa recebeu o valor 10. Foi feito um cast de
  * conversão de forma automática. A função 'typeof()' é usada para descobrir
@@ -100,7 +100,7 @@ FUNCAO.separador(); // ----------------------------------------------
  * o valor da constante sempre será o mesmo.
 */
 
-const curso = "javascript";
+const CURSO = "javascript";
 // curso = "python"; // haverá um erro: 'TypeError: Assignment to constant variable.'
 console.log(curso);
 

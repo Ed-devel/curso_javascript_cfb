@@ -1,7 +1,6 @@
 /**Vídeo 5 - Aprenda sobre os Operadores Matemáticos em Javascript
  * Curso de Javascript Moderno - Aula 04 */
 
-
 // OPERADORES: + - * / % ++ -- += -=
 
 "use strict"
@@ -27,7 +26,7 @@ FUNCAO.separador();
 let num3, num4, num5;
 num3 = num4 = num5 = 33;
 
-console.log(num1+"\n"+num2+"\n"+num3);
+console.log(num3+"\n"+num4+"\n"+num5);
 
 FUNCAO.separador();
 // ----------------------------------------------------

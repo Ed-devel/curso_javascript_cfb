@@ -24,8 +24,10 @@ let o2 = {nome:"Maria"};
 
 console.log(o1 == o2);
 console.log(o1 === o2);
-/** No caso acima foram criados dois Objetos diferentes. Apesar deterem
- * o mesmo CONTEÚDO, porrque têm diferentes referências, ou seja, as comparações
+console.log(o1.nome == o2.nome);
+console.log(o1.nome === o2.nome);
+/** No caso acima foram criados dois Objetos diferentes. Eles têm
+ * o mesmo CONTEÚDO, porém com diferentes referências, ou seja, as comparações
  * acima também levam em consideração o endereço de memória, que nesse caso são
  * distintas. 
  */
@@ -37,7 +39,7 @@ o2 = o1;
 console.log(o1 == o2);
 console.log(o1 === o2);
 /**No caso acima o Objeto o2 recebe a referencia de o1. Agora
- * os dois objetos apontam para o mesmo endereço de memório, 
+ * os dois objetos apontam para o mesmo endereço de memória, 
  * portanto as comparações acima serão verdadeiras.
  */
 
@@ -103,7 +105,7 @@ let sobrenome = "Altemir";
     console.log(siglaCurso);
 }
 
-// Na função abaixo há uma variável. Nesse casoa  função estará
+// Na função abaixo há uma variável. Nesse caso a função estará
 // disponível para ser executada quando ela for chamada. Quando
 // ela for chamada a variável ocupará espaço na memória até o fim
 // da execução da função. 

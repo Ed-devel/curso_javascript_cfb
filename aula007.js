@@ -1,4 +1,4 @@
-/**Vídeo 8 - Operadores Lógicos em Javascript - Aula 07 */
+/** Vídeo 8 - Operadores Lógicos em Javascript - Aula 07 */
 
 //  && (AND)   || (OR)   ! (NOT)
 
