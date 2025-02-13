@@ -8,6 +8,6 @@ function separador() {
  * o código no navegador ou typescript.
 */
 
-module.exports = {
-    separador
-};
+// module.exports = {
+//     separador
+// };
