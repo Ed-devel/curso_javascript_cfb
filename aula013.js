@@ -31,3 +31,20 @@ if (energia > 70 && clima == "sol") {
 } else {
     console.log("Vou ao cinema");
 }
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT
+
+// Numeral maior que 10
+// Fim do código 
+// -------------------------------------------------------
+// Vou a praia
