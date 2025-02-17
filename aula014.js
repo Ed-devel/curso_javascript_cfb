@@ -32,12 +32,6 @@ switch(colocacao){
 }
 
 
-
-
-
-
-
-
 /** OUTPUT
  * Segundo lugar
  */
