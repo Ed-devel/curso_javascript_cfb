@@ -1,13 +1,12 @@
 // Vídeo 15 - Comando Switch Case em Javascript - Aula 14
 
-/** Através  do Switch, uma  expressão  é avaliada  e de acordo com
- * o resultado dessa expressão, essas  são comparadas como os Cases
- * que estão programados  pra retornar resultados , como comparação
- * positiva dessa expressão. Se algum Case coincida com a avaliação
+/** Através  do Switch, uma  expressão  é avaliada  e de  acordo com
+ * o resultado dessa  expressão, essas  são comparadas como os Cases
+ * que estão programados  pra  retornar resultados , como comparação
+ * positiva dessa expressão. Se alguma Case coincida com a avaliação
  * da expressão , então o bloco de comando desse Case é executado.
- * Se nenhum Caso tiver correspondência, então cairá em um bloco
- * de execução chamado default e esse é executado. 
-  */
+ * Se nenhum Caso tiver correspondência , então cairá em um bloco de
+ * execução chamado default e esse é executado.  */
 
 "use strict"
 

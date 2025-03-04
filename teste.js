@@ -1,13 +1,25 @@
 "use strict"
 
 const FUNCAO = require('./separador.js');
-FUNCAO.separador();
 
-let val_a = 15;
-let val_b = 30;
-let val_c = 15;
+let val = 3;
 
-console.log("val_a <  val_b | " + (val_a < val_b) );
-console.log("val_a >  val_b | " + (val_a > val_b) );
-console.log("val_a <= val_c | " + (val_a <= val_c) );
-console.log("!(val_a == val_c) | " + !(val_a == val_c) );
+switch(val){
+    case 1:
+        console.log("Vale 1");
+        break;
+    case 2:
+        console.log("Vale 2");
+        break;
+    case 3:
+        console.log("Vale 3");
+        break;
+    case 4:
+        console.log("Vale 4");
+        break;
+    default:
+        console.log("Valor não encontrado");        
+}
+
+// FUNCAO.separador();
+
