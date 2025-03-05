@@ -5,17 +5,16 @@
 // const FUNCAO = require('./separador.js');
 
 /** FUNÇÃO é um bloco de comandos que pode ser executado em um momento
- * oportuno, em  um momento que que  o programador desejar executar em
- * algum momento do código, quantas vezes forem necessárias.  
+ * oportuno, quando o programador  desejar executar em alguma parte do
+ * código, quantas vezes forem necessárias.  
  */
-
 
 // Forma tradicional para criar uma função
 function nome() {
     console.log("Execução da função");
 }
 
-/* é necessário chamar a função para que ela seja executada.
+/* É necessário chamar a função para que ela seja executada.
 Chamada tradicional da função: */
 nome();
 nome();
@@ -42,9 +41,9 @@ for (let i = 0; i < 5; i++) {
 
 separador();
 
-/** A função abaixo NÃO poderá  ser executada no lado servidor com
- * NodeJs pois há elementos do DOM e esses só podem ser executados
- * no navegador no modo cliente. */
+/** A função  abaixo  NÃO poderá  ser executada no lado  servidor com
+ * NodeJs pois há elementos do DOM e esses só funcionam no navegador,
+ * no modo cliente. */
 function mudarTexto() {
     let d1 = document.getElementById("d1");
     let d2 = document.getElementById("d2");
