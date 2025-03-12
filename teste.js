@@ -21,5 +21,5 @@ switch(val){
         console.log("Valor não encontrado");        
 }
 
-// FUNCAO.separador();
-
+console.log("teste");
+console.log("val = "+ val);
