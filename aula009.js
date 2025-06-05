@@ -64,7 +64,7 @@ FUNCAO.separador();
 
 let n2 = 20;
 
-console.log(n + n2); // imprime 30. O valores são somados pois são numéricos
+console.log(n + n2); // imprime 30. Os valores são somados pois são numéricos
 console.log(n +""+ n2); /* imprime 1020. Nesse caso o + é um operador
                             de concatenação */
                             

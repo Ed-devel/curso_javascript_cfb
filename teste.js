@@ -2,24 +2,19 @@
 
 const FUNCAO = require('./separador.js');
 
-let val = 3;
+let soma = function(...params){
+    let res = 0;
 
-switch(val){
-    case 1:
-        console.log("Vale 1");
-        break;
-    case 2:
-        console.log("Vale 2");
-        break;
-    case 3:
-        console.log("Vale 3");
-        break;
-    case 4:
-        console.log("Vale 4");
-        break;
-    default:
-        console.log("Valor não encontrado");        
+    for (const e of params)
+        res += e;
+
+    return res;
 }
 
-console.log("teste");
-console.log("val = "+ val);
+console.log(soma(2,2,3,3,4));
+
+FUNCAO.separador("----------------------------------------------");
+
+let mult = new Function("a","b","return a * b");
+
+console.log(mult(2,5));

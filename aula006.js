@@ -99,7 +99,7 @@ let sobrenome = "Altemir";
 
 {
     // Variável local - Vai ocupar espaço de memória só  até o fim
-    // da execução do BLOCO. Após o término o espaço de meméria é
+    // da execução do BLOCO. Após o término o espaço de memória é
     // liberado.
     let siglaCurso = "JS";
     console.log(siglaCurso);
