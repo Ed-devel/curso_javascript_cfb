@@ -6,6 +6,6 @@ function separador( line= "----------------------------------------------"){
  * OBSERVAÇÃO: Esse método é exclusivo no Node Js. Pode ocorrer erro ao usar
  * o código no navegador ou typescript.  */
 
-// module.exports = {
-//     separador
-// };
+module.exports = {
+    separador
+};
